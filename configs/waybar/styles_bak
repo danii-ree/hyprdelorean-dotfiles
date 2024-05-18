@@ -1,0 +1,77 @@
+* {
+  border: none;
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: 'Fira Code', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
+  min-height: 20px;
+}
+
+window#waybar {
+  background-color: transparent;
+}
+
+#custom-arch{
+ border-radius: 10px;
+ background-color: #1e1e2e;
+ font-size: 14px;
+ margin-left: 6px;
+ color: #eceff4;
+ margin-top: 6px;
+ padding-right: .4px;
+}
+
+
+#workspaces {
+  background: #1e1e2e;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  color: #cba6f7
+}
+#workspaces button {
+  padding: 0px 5px;
+  margin: 0px 5px;
+  border-radius: 10px;
+  color: transparent;
+  background: #181823;
+  transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active {
+  background-color: #abb6ff;
+  color: transparent;
+  border-radius: 10px;
+  min-width: 30px;
+  background-size: 400% 400%;
+  transition: all 0.3s ease-in-out;
+}
+
+#workspaces button:hover {
+  background-color: #f5f5f5;
+  color: transparent;
+  border-radius: 10px;
+  min-width: 35px;
+  background-size: 400% 400%;
+}
+
+#custom-spotify, #clock, #custom-updates,#network, #pulseaudio, #custom-power_profile, #battery {
+border-radius: 10px;
+background-color: #1e1e2e;
+color: #cad3f5;
+margin-top: 6px;
+padding-top: 1px;
+padding-left: 10px;
+padding-right: 10px;
+margin-right: 6px;
+}
+#network
+{
+  padding-right: 20px;
+}
+#custom-power_profile
+{
+  padding-right: 20px;
+  padding-left: 15px;
+  color: #cba6f7;
+}

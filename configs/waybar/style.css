@@ -1,0 +1,118 @@
+* {
+  border: none;
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: 'Fira Code', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
+  /* min-height: 12px; */
+  padding: 2px;
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  
+}
+
+window#waybar {
+  background-color: #1e2030;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  /* border-top-left-radius: 20px; */
+  /* border-top-right-radius: 20px; */
+}
+
+#custom-arch{
+ border-radius: 15px;
+ background-color: #8aadf4;
+ font-size: 22px;
+ margin-left: 7px;
+ color: #eceff4;
+ margin-bottom: 10px;
+ margin-top: 5px;
+ padding-right: 6px;
+ border: solid;
+ /* border-width: 0px 0px 5px 0px; */
+ /* border-color: #7391cb; */
+
+}
+
+
+#workspaces {
+  background: #313244; 
+  margin-top: 5px;
+  margin-bottom: 10px; 
+  padding: 5px;
+  border-radius: 15px;
+  color: #cba6f7;
+  border: solid;
+  /* border-width: 0px 0px 5px 0px; */
+  /* border-color: #1d1f2f; */
+}
+#workspaces button {
+  padding: 0px 5px;
+  margin: 0px 5px;
+  border-radius: 9999px;
+  color: transparent;
+  background: #5b6078;
+}
+
+#workspaces button.active {
+  background-color: #abb6ff;
+  color: transparent;
+}
+
+
+#clock, #custom-updates,#network, #pulseaudio, #custom-power_profile, #battery {
+border-radius: 15px;
+/* background-color: #24273a; */
+color: #cad3f5;
+margin-top: 5px;
+padding-top: 2px;
+padding-left: 10px;
+padding-right: 10px;
+margin-right: 6px;
+margin-bottom: 10px;
+}
+#clock
+{
+  border: solid;
+  font-weight: 700;
+  background-color: #313244;
+  /* border-width: 0px 0px 5px 0px; */
+  /* border-color: #1d1f2f; */
+}
+#pulseaudio
+{
+  background-color: #c6a0f6;
+  border: solid;
+  /* border-width: 0px 0px 5px 0px; */
+  /* border-color: #ab8ad4; */
+  color: #252836;
+}
+#battery{
+  background-color: #8bd5ca;
+  border: solid;
+  /* border-width: 0px 0px 5px 0px; */
+  /* border-color: #73b1a7; */
+  color: #252836;
+}
+
+#network
+{
+  padding-right: 20px;
+  background-color: #ee99a0;
+  color: #252836;
+  border: solid;
+ font-weight: 500;
+  /* border-width: 0px 0px 5px 0px; */
+  /* border-color: #c98086; */
+}
+#custom-power_profile
+{
+  padding-right: 20px;
+  padding-left: 15px;
+  color: #181825;
+  background-color: #abb6ff;
+  border: solid;
+  /* border-width: 0px 0px 5px 0px; */
+  /* border-color: #9098cf; */
+}
